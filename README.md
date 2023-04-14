@@ -40,6 +40,12 @@ Install last version
 
 ![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/4.png?raw=true)
 
-2. This will provide a container id and we can verify the container using the command _`docker ps`_
+2. This will provide a container id and we can verify the container using the command _`docker ps`_ . We see that container id correspond to the container small id and the port 3306 of our host is mapped to the port 3306 of the container
 
 ![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/5.png?raw=true)
+
+3. Finally we can use MySQL Workbench to verify our container is up and running. We provide the hostname: **localhost** port: **3306** username: **root** and password: **root** .
+
+![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/6.png?raw=true)
+
+![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/7.png?raw=true)
