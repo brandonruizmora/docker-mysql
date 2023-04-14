@@ -100,6 +100,12 @@ Create MySQL container and use with Adminer container
 
 #### Create and Run the container of mysql
 
+1. To create and run the container of mysql we can use the command _`docker container run`_ here we provide _the container name, environment variables, define localhost port, to run in background mode and the image of mysql_
+
+2. This will provide a container id and we can verify the container using the command _`docker ps`_ . We see that container id correspond to the container small id and the port 3306 of our host is mapped to the port 3306 of the container
+
+![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/12.png?raw=true)
+
 #### Create and Run the container of adminer
 
 
