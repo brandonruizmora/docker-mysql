@@ -24,12 +24,12 @@ Install last version
 
 1. First step is to look for the image in the [Docker Hub](https://hub.docker.com/)
 
-![docker mysql image](https://github.com/brandonruizmora/dockercompose-node-mongo/images/1.png)
+![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/1.png)
 
 2. Here we will be using the latest mysql image available we pull the image using the command _`docker image pull`_
 
-![docker mysql image](https://github.com/brandonruizmora/dockercompose-node-mongo/images/2.png)
+![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/2.png)
 
 3. After the download is completed we verify the image using the command _`docker images`_
 
-![docker mysql image](https://github.com/brandonruizmora/dockercompose-node-mongo/images/3.png)
+![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/3.png?raw=true)
