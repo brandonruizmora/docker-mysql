@@ -151,6 +151,8 @@ This will help us to download images, create, (re)build, starts multi-containers
 
 #### **Create docker-compose.yml (define multi-container application)**
 
+[docker-compose.yml example file](https://github.com/brandonruizmora/docker-mysql/blob/master/docker-compose.yml)
+
 **docker-compose.yml** file allows you to configure and document all your application's service dependencies (other services, cache, databases, queues, etc.). Using the docker-compose CLI command, you can create and start one or more containers for each dependency with a single command (docker-compose up).
 
 What is defined in the file are this:
