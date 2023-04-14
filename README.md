@@ -24,12 +24,22 @@ Install last version
 
 1. First step is to look for the image in the [Docker Hub](https://hub.docker.com/)
 
-![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/1.png)
+![docker hub mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/1.png?raw=true)
 
 2. Here we will be using the latest mysql image available we pull the image using the command _`docker image pull`_
 
-![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/2.png)
+![docker mysql image pull](https://github.com/brandonruizmora/docker-mysql/blob/master/images/2.png?raw=true)
 
 3. After the download is completed we verify the image using the command _`docker images`_
 
-![docker mysql image](https://github.com/brandonruizmora/docker-mysql/blob/master/images/3.png?raw=true)
+![docker mysql image verification](https://github.com/brandonruizmora/docker-mysql/blob/master/images/3.png?raw=true)
+
+### Create and Run the container of mysql
+
+1. To create and run the container of mysql we can use the command _`docker container run`_ here we provide _the container name, environment variables, define localhost port, to run in background mode and the image of mysql_
+
+![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/4.png?raw=true)
+
+2. This will provide a container id and we can verify the container using the command _`docker ps`_
+
+![docker mysql create container](https://github.com/brandonruizmora/docker-mysql/blob/master/images/5.png?raw=true)
