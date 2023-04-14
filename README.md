@@ -116,9 +116,23 @@ Create MySQL container and use with Adminer container
 
 #### Check connection of adminer and mysql
 
-We link the container of adminer to the container of mysql using the option --link. Now we can access to **localhost:8080** and set params System: _MySQL_, Server: _mysqlito_, Username: _userdb_, password: _passworddb_, Database: _mysqldb_.This where defined in mysql container creation.
+We link the container of adminer to the container of mysql using the option --link. Now we can access to **localhost:8080** and set params System: _MySQL_, Server: _mysqlito_, Username: _userdb_, password: _passworddb_, Database: _mysqldb_.Those where defined in mysql container creation.
 
 ![adminer connection](https://github.com/brandonruizmora/docker-mysql/blob/master/images/14.png?raw=true)
 
 
 ![adminer connection](https://github.com/brandonruizmora/docker-mysql/blob/master/images/15.png?raw=true)
+
+#### Stop containers, remove it and remove images
+
+1. Finally we can stop containers with command _`docker stop`_
+
+2. Remove containers with command _`docker rm`_
+
+3. Verify containers are removed with command _`docker ps -a`_
+
+4. Remove images with command _`docker image rm`_
+
+5. Verify images are removed with command _`docker images`_
+
+![remove containers and images](https://github.com/brandonruizmora/docker-mysql/blob/master/images/16.png?raw=true)
